@@ -1,3 +1,10 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
+
 .colorB {
     background-image: url(../img/fond.jpg);
     background-repeat: no-repeat;
@@ -11,7 +18,8 @@
 
 .navColor {
     background-color:rgba(202, 200, 200, 0.877);
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     
 
 
@@ -44,19 +52,18 @@
     
 }
 
-.jumbotronColor {
-    background-color: rgba(230, 227, 227, 0.877);
-    padding-top: 3rem;
-    padding-block-end: 3rem;
-}
-
-
 .jumbotron {
     
-    background-image: url('../img/ordenador.jpg');
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),url('../img/ordenador.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 10%;
+    padding: 12%;
+    
+
 
 }
 
@@ -64,16 +71,25 @@
 .Title1 {
     font-weight:bolder;
     font-size: 3rem;
+    letter-spacing: 0.6rem;
+    color: white;
+    
    
+   
+
 }
 
 .Title2 {
     font-size: xx-large;
     font-weight: bold;
     text-decoration: underline;
+    color: white;
+    
 }
 .Title3 {
     font-weight:normal;
+    color: white;
+    
     
 
 }
