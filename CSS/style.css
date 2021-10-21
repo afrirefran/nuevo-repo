@@ -1,0 +1,38 @@
+/*ESTANTERÍA*/
+.estante {
+    background-image: url('../img/supermarket/estante18.jpg');
+    width: 100%;
+    height: 500rem;
+    background-repeat: no-repeat;
+
+}
+
+
+.agua {
+    width: 6%;
+    height: 8rem;
+
+}
+
+
+.manzana {
+    width: 6%;
+    height: 3rem;
+
+} 
+
+
+.naranja {
+    width: 6%;
+    height: 3rem;
+
+}
+
+
+.platano {
+    width: 7%;
+    height: 5rem;
+
+}
+
+/*FIN ESTANTERÍA*/
