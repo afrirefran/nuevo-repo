@@ -48,3 +48,22 @@
 }
 
 /*FIN ESTANTERÍA*/
+
+
+
+
+/*CARRITO DE COMPRA*/
+
+.carrito {
+    
+    width: 30%;
+    height: 19rem;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    border-style: solid;
+    
+   
+
+}
+
+/*FIN CARRITO DE COMPRA*/
