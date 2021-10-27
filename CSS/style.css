@@ -1,6 +1,5 @@
-html, body {
+html {
     max-width: 100% !important;
-    overflow-x: hidden !important;
 }
 
 
@@ -186,7 +185,9 @@ html, body {
 /**********CONTACTO**********/
 
 /*BODY CONTACTO*/
+/*
 .colorB {
+    
     background-image: url(../img/fond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,23 +196,28 @@ html, body {
     
 
 }
+*/
 /*FIN BODY CONTACTO*/
 
-
+.colorB {
+    background-color: rgb(236, 232, 232);
+}
 
 
 /*FORMULARIO*/
+.formulario {
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
 .contactoColor {
     text-decoration: underline;
     padding-top: 5rem;
-
 }
 
 
 .letrasP {
     font-weight: bolder;
     padding-top: 2rem;
-
 }
 
 
@@ -251,10 +257,9 @@ html, body {
 
 /*EMAIL Y TELÉFONO*/
 .datos {
-    margin-top: 3rem;
+    margin: 5rem 0rem;
       
 }
-
 
 .bi-envelope-fill {
     font-size: 1.5rem;
@@ -283,7 +288,7 @@ html, body {
 .bi-telephone-fill {
     font-size: 1.5rem;
     margin-left: 3rem;
-    
+
 }
 
 
