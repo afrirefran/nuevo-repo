@@ -5,29 +5,12 @@ html, body {
 
 
 
-.colorB {
-    background-image: url(../img/fond.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin-bottom: 40rem;
-    
-   
-
-}
-
-
-  
-
+/*MENÚ INDEX*/
 .navColor {
     background-color:rgba(202, 200, 200, 0.877);
     display: flex;
     justify-content: center;
-    
-    
-
-
-    
+       
 }
 
 
@@ -39,23 +22,17 @@ html, body {
 }
 
 
-.HOME {
+.home {
     color: black;
     font-weight: bold;
     background: grey;
-    
-   
 
 }
 
-.CONTACTO {
+.contacto {
     color: black;
     font-weight: bold;
-    
-    
-    
-    
-    
+        
 }
 
 .jumbotron {
@@ -275,4 +252,15 @@ html, body {
 }
 
 
+/*MENÚ CONTACTO*/
+.colorB {
+    background-image: url(../img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 40rem;
+    
 
+}
+
+/*FIN MENÚ CONTACTO*/
