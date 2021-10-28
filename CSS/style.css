@@ -1,7 +1,3 @@
-html {
-    max-width: 100% !important;
-}
-
 
 /**********INDEX**********/
 
@@ -23,7 +19,6 @@ html {
 .home {
     color: black;
     font-weight: bold;
-    background: grey;
 }
 
 
@@ -37,7 +32,7 @@ html {
 
 
 /*JUMBOTRON*/
-.jumbotron {
+.jumbotrn {
     
     background-image:
     linear-gradient(
@@ -46,7 +41,14 @@ html {
       ),url('../img/ordenador.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 12%;   
+    padding-bottom: 11%;
+    text-align: end;  
+    margin-right: 0%; 
+}
+
+
+.parrafo {
+    margin-top: 9rem;    
 }
 
 
@@ -54,7 +56,8 @@ html {
     font-weight:bolder;
     font-size: 3rem;
     letter-spacing: 0.6rem;
-    color: white;    
+    color: white;  
+     
 }
 
 .p-1 {
@@ -72,7 +75,7 @@ html {
 
 .perfil { 
     background-color: grey;
-    border-color:  grey;
+    border-color: black;
 }
 /*FIN JUMBOTRON*/
 
@@ -97,6 +100,7 @@ html {
 /*IMÁGENES*/
 .text-center {
     margin-top: 5rem;
+    
 }
 
 
@@ -125,9 +129,9 @@ html {
     height: 56%;
 }
 
-.reactyredux {
-    width: 65%;
-    height: 58%;
+.typescript {
+    width: 47%;
+    height: 54%;
 }
 /*FIN IMÁGENES*/
 
@@ -136,26 +140,23 @@ html {
 
 
 /*IMAGEN FINAL*/
-.IMAGENFONDO {
-    width: 100%;
-    height: 100%;
-    text-align: center;
+.imagen_fondo {
+    background-image: url('../img/fondo\ marmol\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+    
+    
 }
 
-.imagenfondoo {
-    text-align: center;
-    position: relative;
-}
 
 .centrado {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-weight: bolder;
     font-size: 210%;
     font-style: oblique;
     font-family:tahoma; 
+    
+
 }
 /*FIN IMAGEN FINAL*/
 
