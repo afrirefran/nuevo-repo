@@ -229,7 +229,9 @@ html {
 /*EMAIL Y TELÉFONO*/
 .datos {
     margin-top: 5rem;
-    margin-left: 5rem;     
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+         
 }
 
 .bi-envelope-fill {
