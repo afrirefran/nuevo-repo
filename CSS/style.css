@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 /**********INDEX**********/
 
 /*MENÚ*/
@@ -21,9 +23,7 @@
     font-weight: bold;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 .contacto {
     color: black;
     font-weight: bold;        
@@ -38,47 +38,67 @@
     
     background-image:
     linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
       ),url('../img/ordenador.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 17%;
-
-
+    padding: 7rem 0rem;
 }
 
-
-.parrafo {
-    margin-top: 9rem; 
-    text-align: end;   
-}
 
 
 .title {
     font-weight:bolder;
     font-size: 3rem;
-    letter-spacing: 0.6rem;
-    color: white;      
+    letter-spacing: 1rem;
+    color: white;
+    padding-bottom: 3.5rem; 
+    
+}
+
+@media (max-width: 575px){
+    .title {
+        font-size: 1.2rem; 
+    }
 }
 
 .p-1 {
     font-size: xx-large;
     font-weight: bold;
     text-decoration: underline;
-    color: white;   
+    color: white; 
+  
 }
+
+@media (max-width: 575px){
+    .p-1 {
+        font-size: 0.7rem;
+    }
+}
+
+
 
 .p-2 {
     font-weight:normal;
-    color: white;   
+    color: white; 
+ 
 }
 
+
+@media (max-width: 575px){
+    .p-2 {
+        font-size: 0.5rem;
+    }
+
+}
 
 .perfil { 
     background-color: grey;
     border-color: black;
 }
+
+
 /*FIN JUMBOTRON*/
 
 
@@ -102,9 +122,8 @@
 
 
 /*IMÁGENES*/
-.text-center {
-    margin-top: 5rem;
-   
+.images {
+    margin-top: 5rem;   
 }
 
 
@@ -137,6 +156,15 @@
     width: 47%;
     height: 54%;
 }
+
+
+@media (max-width: 575px){
+    .images {
+        width: 60%;
+        height: 60%;
+    }
+}
+
 /*FIN IMÁGENES*/
 
 
@@ -148,20 +176,25 @@
     background-image: url('../img/fondo\ marmol\ 2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20%;
-    
-    
+    padding: 20%;    
 }
 
 
 .centrado {
     font-weight: bolder;
-    font-size: 210%;
+    font-size: 200%;
     font-style: oblique;
     font-family:tahoma; 
-    
-
 }
+
+
+@media (max-width: 575px){
+    .centrado {
+        font-size: 130%;
+    }
+}
+
+
 /*FIN IMAGEN FINAL*/
 
 /**********FIN INDEX**********/
