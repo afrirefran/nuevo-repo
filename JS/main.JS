@@ -10,6 +10,9 @@ function drop(contenedor, evento) {
     sumar();  
 }
 
+
+
+
 //Función que sumará los valores contenidos dentro de tus spans
 function sumar() {
     //Capturas todos los elementos spans que están dentro del div con id 'precios'

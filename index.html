@@ -21,10 +21,19 @@
                 
  <!-- PRODUCTOS -->                
                 <div class="images">
-                    <img src="img/supermarket/png/manzana.png" alt="manzana" class="manzana" id="manzana" draggable="true" ondragstart="drag(this, event)"/><span>2€</span>
-                    <img src="img/supermarket/png/naranja.png" alt="naranja" class="naranja" id="naranja" draggable="true" ondragstart="drag(this, event)"/><span>2€</span>
-                    <img src="img/supermarket/png/platano.webp" alt="platano" class="platano" id="platano" draggable="true" ondragstart="drag(this, event)"/><span>2€</span>        
-                </div>  
+                   
+                    <div id="manzana" draggable="true" ondragstart="drag(this, event)"><span>1€</span>
+                        <img src="img/supermarket/png/manzana.png" alt="manzana" class="manzana"/>
+                    </div>
+                       
+                    <div id="naranja" draggable="true" ondragstart="drag(this, event)"><span>1€</span>  
+                        <img src="img/supermarket/png/naranja.png" alt="naranja" class="naranja"/>
+                    </div>
+                   
+                    <div id="platano" draggable="true" ondragstart="drag(this, event)"><span>2€</span> 
+                        <img src="img/supermarket/png/platano.webp" alt="platano" class="platano"/>        
+                    </div>
+                </div> 
             </div>
 <!--FIN PRODUCTOS-->
 
@@ -34,7 +43,7 @@
 <!--CARRITO DE COMPRA-->
 
             
-            <div class="col-12 col-sm-6 carrito" id="precios">
+            <div class="col-12 col-sm-6" id="precios">
                 <div class="carShopping" id="carShopping" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
 
                 </div>
