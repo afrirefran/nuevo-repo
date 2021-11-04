@@ -4,6 +4,14 @@
 /**********INDEX**********/
 
 /*MENÚ*/
+.header {
+    position: fixed;
+    width: 100%;
+
+}
+
+
+
 .navColor {
     background-color:rgba(202, 200, 200, 0.877);
     display: flex;
