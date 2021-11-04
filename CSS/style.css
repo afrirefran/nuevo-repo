@@ -59,7 +59,8 @@
 
 @media (max-width: 575px){
     .title {
-        font-size: 1.2rem; 
+        font-size: 1.1rem; 
+        letter-spacing: 0.8rem;
     }
 }
 
@@ -73,7 +74,7 @@
 
 @media (max-width: 575px){
     .p-1 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }
 
