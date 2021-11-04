@@ -2,9 +2,11 @@
 
 .estante {
     background-image: url('../img/supermarket/estante18.jpg');
-    width: 100%;
-    height: 500rem;
+    width: cover;
+    height: 35rem;
     background-repeat: no-repeat;
+    z-index: -2;
+    
 }
 
 
@@ -13,6 +15,8 @@
     display: flex ;
     justify-content: space-evenly;
     padding-top: 3rem;
+    
+    
 }
 
 
@@ -44,13 +48,14 @@
 
 /*CARRITO DE COMPRA*/
 
-.carShopping {
+.carShoppingg {
     
-    width: 70%;
+    width: 65%;
     height: 20rem;
     margin-top: 10rem;
     margin-left: 6rem;
     border: 2px solid;
+    
 }
 
 /*FIN CARRITO DE COMPRA*/
