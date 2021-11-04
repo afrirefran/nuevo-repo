@@ -74,7 +74,7 @@
 
 @media (max-width: 575px){
     .p-1 {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -89,7 +89,7 @@
 
 @media (max-width: 575px){
     .p-2 {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 
 }
