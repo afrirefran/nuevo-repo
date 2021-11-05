@@ -14,51 +14,44 @@
 
 <!--ESTANTERÍA-->
 <div>
-    <div class="estante">
         <div class="row">
-            <div class="col-12 col-sm-6" id="estanteria" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"> 
+            <div class="col-12 col-sm-6 estante" id="estanteria" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"> 
                 
                 
  <!-- PRODUCTOS -->                
                 <div class="images">
-                   
-                    <div id="manzana" draggable="true" ondragstart="drag(this, event)"><span>1€</span>
+                    <div id="manzana" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/manzana.png" alt="manzana" class="manzana"/>
+                        <span>1€</span>
                     </div>
                        
-                    <div id="naranja" draggable="true" ondragstart="drag(this, event)"><span>1€</span>  
+                   <div id="naranja" draggable="true" ondragstart="drag(this, event)">  
                         <img src="img/supermarket/png/naranja.png" alt="naranja" class="naranja"/>
+                        <span>1€</span>
                     </div>
                    
-                    <div id="platano" draggable="true" ondragstart="drag(this, event)"><span>2€</span> 
-                        <img src="img/supermarket/png/platano.webp" alt="platano" class="platano"/>        
+                    <div id="platano" draggable="true" ondragstart="drag(this, event)"> 
+                        <img src="img/supermarket/png/platano.webp" alt="platano" class="platano"/> 
+                        <span>2€</span>       
                     </div>
                 </div> 
             </div>
 <!--FIN PRODUCTOS-->
-
 <!--FIN ESTANTERÍA-->
 
 
 <!--CARRITO DE COMPRA-->
-
-            
-            <div class="col-12 col-sm-6" id="precios">
-                <div class="carShopping" id="carShopping" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
-
-                </div>
-
-                
+            <div class="col-12 col-sm-6 estante" id="precios">
+                <div id="carShopping" class="images" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false" style="width: 70%; height: 33rem;">
+                    <!-- <div class="carShoppingg"></div> -->
+                </div> 
             </div>
-        </div>
     </div>
 </div>
-
 <!--FIN DE CARRITO DE COMPRA-->
 
 <!-- Ubicación donde se mostrará el resultado de la suma -->
 <p>Resultado:</p><span id="resultado"></span><br /><br />
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
