@@ -6,24 +6,33 @@
     height: 34rem;
     background-repeat: no-repeat;  
     padding-left: 6rem;
+    display: flex;
+    display: inline;
+    
 }
 
 
 .carShoppingg {
-    background-image: 
+    /*background-image: 
     linear-gradient(
         rgba(0, 0, 0, 0.9),
         rgba(0, 0, 0, 0.9)
-      ),url('../img/supermarket/estante18.jpg');
-    width: 100%;
-    height: 34rem;
-    background-repeat: no-repeat;    
+      ),url('../img/supermarket/estante18.jpg');*/
+    width: 30rem;
+    height: 27rem;
+    /*background-repeat: no-repeat;*/
+    border: 2px solid black;
+    margin-top: 6rem;
+    
+    
 }
 
 
 
 .images{
-    display: flex;
+  display: flex;
+  justify-content: space-evenly; 
+  margin-right: 6rem;
 }
 
 
@@ -31,23 +40,67 @@
 .manzana {
     width: 3rem;
     height: 3rem;
-    margin: 6rem 0rem 0rem 4rem;
+    /*margin: 6rem 0rem 0rem 4rem;*/
+    margin-top: 6rem;
+    
+    
 } 
 
 
 .naranja {
     width: 3rem;
     height: 3rem;
-    margin: 6rem 0rem 0rem 4rem;
+    /*margin: 6rem 0rem 0rem 4rem;*/
+    margin-top: 6rem;
+    
+    
 }
 
 
 .platano {
-    width: 40%;
+    width: 4.5rem;
     height: 6rem;
-    margin-right: 6rem;
-    margin: 4rem 0rem 0rem 4rem;
+    /*margin-right: 6rem;*/
+    /*margin: 4rem 0rem 0rem 4rem;*/
+    margin-top: 3.2rem;
+    
+    
 }
+
+.images_1 {
+    display: flex;
+    justify-content: space-evenly; 
+
+}
+
+.agua {
+    width: 2rem;
+    height: 5rem;
+    margin-top: 0.6rem;
+
+}
+
+.uvas {
+    width: 7rem;
+    height: 5rem;
+    margin-top: 0.7rem;
+    
+      
+}
+
+.pez_1 {
+    padding-right: 4rem;
+    
+}
+
+.pez {
+    width: 11rem;
+    height: 5rem;
+    margin-top: 1.7rem;
+
+}
+
+
 
 /*FIN ESTANTERÍA*/
 /*FIN CARRITO DE COMPRA*/
@@ -67,10 +120,11 @@
 }
 /*FIN CARRITO DE COMPRA*/
 
-/*.carShoppingg{
+/*.carShoppinggg{
     width: 84%;
     height: 27rem;
     border: 2px solid;
     margin-top: 5rem;
+    padding: 5rem;
 }*/
 
