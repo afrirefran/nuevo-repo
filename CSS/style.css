@@ -38,8 +38,8 @@
 
 
 .manzana {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 3.2rem;
     /*margin: 6rem 0rem 0rem 4rem;*/
     margin-top: 6rem;
     
@@ -48,8 +48,8 @@
 
 
 .naranja {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 3.2rem;
     /*margin: 6rem 0rem 0rem 4rem;*/
     margin-top: 6rem;
     
@@ -149,19 +149,20 @@
 .images_4 {
     display: flex;
     justify-content: space-evenly; 
+    margin-right: 4.7rem;
 
 }
 
 
 .lechuga {
     width: 11rem;
-    height: 3rem;
+    height: 3.4rem;
 }
 
 
 .pollo {
-    width: 8.5rem;
-    height: 2.8rem;
+    width: 9rem;
+    height: 3.5rem;
 }
 
 /*FIN ESTANTERÍA*/
