@@ -15,10 +15,12 @@
 <!--ESTANTERÍA-->
 <div>
         <div class="row">
-            <div class="col-12 col-sm-6 estante" id="estanteria" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"> 
+            <div class="col-12 col-sm-6 estanteria" id="estanteria" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"> 
                 
+             
                 
- <!-- PRODUCTOS -->                
+
+  <!-- PRODUCTOS -->                
                 <div class="images">
                     <div id="manzana" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/manzana.png" alt="manzana" class="manzana"/>
@@ -70,8 +72,6 @@
                         <img src="img/supermarket/png/tomates2.png" alt="tomates" class="tomates"/>
                         <span>1€</span>
                     </div>
-
-                    
                 </div>
 
 
@@ -83,8 +83,8 @@
                         <span>3€</span>
                     </div>
 
-                    <div id="huevos" draggable="true" ondragstart="drag(this, event)">
-                        <img src="img/supermarket/png/huevos.png" alt="huevos" class="huevos"/>
+                    <div id="pan" draggable="true" ondragstart="drag(this, event)">
+                        <img src="img/supermarket/png/pan.png" alt="pan" class="pan"/>
                         <span>3€</span>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
 
                 <div class="images_4">
 
-                    <div class="pez_1" id="pez" draggable="true" ondragstart="drag(this, event)">
+                    <div id="pez" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/pez.png" alt="pez" class="pez"/>
                         <span>2.5€</span>
                     </div>
@@ -105,25 +105,27 @@
                         <span>8€</span>
                     </div>
                 </div>
+
             </div>
-<!--FIN PRODUCTOS-->
+  <!--FIN PRODUCTOS-->
 <!--FIN ESTANTERÍA-->
+
+
+
 
 
 <!--CARRITO DE COMPRA-->
             <div class="col-12 col-sm-6">
-                <div class="carShoppingg" id="precios">
-                <div id="carShoppingg" class="images images_1 images_2 images_3 images_4" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false" style="width: 70%; height: 33rem;">
-                    <!-- <div class="carShoppingg"></div> -->
-                </div> 
-                </div>
+                    <div id="precios" class="carShopping images images_1 images_2 images_3 images_4" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+                    </div> 
+
+                    <!--UBICACIÓN DONDE SE MOSTRARÁ EL TOTAL DE LA COMPRA-->
+                    <p class="total">TOTAL:</p><span id="resultado"></span>
+                    <!--FIN DE LA UBICACIÓN DONDE SE MOSTRARÁ EL TOTAL DE LA COMPRA-->
             </div>
     </div>
 </div>
 <!--FIN DE CARRITO DE COMPRA-->
-
-<!-- Ubicación donde se mostrará el resultado de la suma -->
-<p>Resultado:</p><span id="resultado"></span><br /><br />
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
