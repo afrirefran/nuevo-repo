@@ -13,26 +13,27 @@
 <body>
 
 <!--ESTANTERÍA-->
-<div>
+<div class="container">
         <div class="row">
-            <div class="col-12 col-sm-6 estanteria" id="estanteria" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false"> 
+            <div class="col-12 col-sm-6 estanteria" id="estanteria">
                 
              
                 
 
-  <!-- PRODUCTOS -->                
-                <div class="images">
-                    <div id="manzana" draggable="true" ondragstart="drag(this, event)">
+  <!-- PRODUCTOS --> 
+
+                <div class="row images" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+                    <div class="col-2" id="manzana" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/manzana.png" alt="manzana" class="manzana"/>
                         <span>0.5€</span>
                     </div>
                        
-                   <div id="naranja" draggable="true" ondragstart="drag(this, event)">  
+                   <div class="col-2" id="naranja" draggable="true" ondragstart="drag(this, event)">  
                         <img src="img/supermarket/png/naranja.png" alt="naranja" class="naranja"/>
                         <span>0.5€</span>
                     </div>
                    
-                    <div id="platano" draggable="true" ondragstart="drag(this, event)"> 
+                    <div class="col-2" id="platano" draggable="true" ondragstart="drag(this, event)"> 
                         <img src="img/supermarket/png/platano.webp" alt="platano" class="platano"/> 
                         <span>1€</span>       
                     </div>
@@ -41,18 +42,18 @@
 
 
 
-                <div class="images_1">
-                    <div id="uvas" draggable="true" ondragstart="drag(this, event)">
+                <div class="row images_1"  ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+                    <div class="col-2" id="uvas" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/uvas.png" alt="uvas" class="uvas"/>
                         <span>0.7€</span>
                     </div>
 
-                    <div id="aguacate" draggable="true" ondragstart="drag(this, event)">
+                    <div class="col-2" id="aguacate" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/aguacate.png" alt="aguacate" class="aguacate"/>
                         <span>1.5€</span>
                     </div>
 
-                    <div id="limon" draggable="true" ondragstart="drag(this, event)">
+                    <div class="col-2" id="limon" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/limon.webp" alt="limon" class="limon"/>
                         <span>0.3€</span>
                     </div>
@@ -61,14 +62,14 @@
 
 
 
-                <div class="images_2">
+                <div class="row images_2"  ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
                 
-                    <div id="lechuga" draggable="true" ondragstart="drag(this, event)">
+                    <div class="col-3" id="lechuga" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/lechuga.png" alt="lechuga" class="lechuga"/>
                         <span>1€</span>
                     </div>
 
-                    <div id="tomates" draggable="true" ondragstart="drag(this, event)">
+                    <div class="col-3" id="tomates" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/tomates2.png" alt="tomates" class="tomates"/>
                         <span>1€</span>
                     </div>
@@ -77,13 +78,13 @@
 
 
 
-                <div class="images_3">
-                    <div id="huevos" draggable="true" ondragstart="drag(this, event)">
+                <div class="row images_3"  ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+                    <div class="col-3" id="huevos" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/huevos.png" alt="huevos" class="huevos"/>
                         <span>3€</span>
                     </div>
 
-                    <div id="pan" draggable="true" ondragstart="drag(this, event)">
+                    <div class="col-3" id="pan" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/pan.png" alt="pan" class="pan"/>
                         <span>3€</span>
                     </div>
@@ -92,15 +93,15 @@
 
 
 
-                <div class="images_4">
+                <div class="row images_4" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
 
-                    <div id="pez" draggable="true" ondragstart="drag(this, event)">
+                    <div class="col-3" id="pez" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/pez.png" alt="pez" class="pez"/>
                         <span>2.5€</span>
                     </div>
                     
 
-                    <div id="pollo" draggable="true" ondragstart="drag(this, event)">
+                    <div class="col-3" id="pollo" draggable="true" ondragstart="drag(this, event)">
                         <img src="img/supermarket/png/pollo.png" alt="pollo" class="pollo"/>
                         <span>8€</span>
                     </div>
@@ -116,7 +117,7 @@
 
 <!--CARRITO DE COMPRA-->
             <div class="col-12 col-sm-6">
-                    <div id="precios" class="carShopping images images_1 images_2 images_3 images_4" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
+                    <div id="precios" class="row carShopping images images_1 images_2 images_3 images_4" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false">
                     </div> 
 
                     <!--UBICACIÓN DONDE SE MOSTRARÁ EL TOTAL DE LA COMPRA-->
